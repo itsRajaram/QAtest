@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Famous Indian Actors</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fafafa;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #444;
+    }
+    .actor-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .actor-card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+    }
+    .actor-card img {
+      width: 100%;
+      border-radius: 10px;
+      height: 250px;
+      object-fit: cover;
+    }
+    .actor-name {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Famous Indian Actors</h1>
+
+  <div class="actor-grid">
+    <div class="actor-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Shah_Rukh_Khan_grace_the_red_carpet_of_AsiaVision_Movie_Awards.jpg" alt="Shah Rukh Khan">
+      <div class="actor-name">Shah Rukh Khan</div>
+    </div>
+    <div class="actor-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Amitabh_Bachchan_2013.jpg" alt="Amitabh Bachchan">
+      <div class="actor-name">Amitabh Bachchan</div>
+    </div>
+    <div class="actor-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Allu_Arjun_at_Pro_Kabaddi_League.jpg" alt="Allu Arjun">
+      <div class="actor-name">Allu Arjun</div>
+    </div>
+    <div class="actor-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Rajinikanth_at_the_INIFD_event.jpg" alt="Rajinikanth">
+      <div class="actor-name">Rajinikanth</div>
+    </div>
+  </div>
+
+</body>
+</html>
